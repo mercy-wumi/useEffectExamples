@@ -7,6 +7,7 @@ import TabContent from '../TabContent'
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState('basics')
+
     return (
         <>
             <div style={{ marginTop: '-1.5rem' }}>
