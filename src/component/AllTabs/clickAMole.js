@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import MoleContainer from '../MoleContainer'
 
-const useEffectBasics = () => {
+const ClickAMole = () => {
     const [score, setScore] = useState(0)
 
     const createMoleHill = () => {
@@ -22,11 +22,11 @@ const useEffectBasics = () => {
 
     return (
         <div>
-            <h4>Click a mole</h4>
+            <h4>Click the blue Sneaker</h4>
             <h3>{score}</h3>
             {createMoleHill()}
         </div>
     )
 }
 
-export default useEffectBasics
+export default ClickAMole
